@@ -1,0 +1,23 @@
+{
+  "name": "laboratorio-maluco",
+  "version": "1.0.0",
+  "description": "apenas um local onde testo e aprendo um monte de coisas diariamente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hades-IA/Laboratorio-Maluco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hades-IA/Laboratorio-Maluco/issues"
+  },
+  "homepage": "https://github.com/Hades-IA/Laboratorio-Maluco#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ejs": "^3.1.3"
+  }
+}
