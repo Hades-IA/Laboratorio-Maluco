@@ -1,0 +1,8 @@
+a = document.querySelectorAll('.card')
+b = [...a]
+c = b.map( data => "<RePlaceITs>" + data.innerHTML + "<RePlaceITs>").reduce((acc,data)=> acc + data)
+
+
+//removing elements
+z = document.querySelectorAll(".subname")
+z.forEach(data => data.remove())

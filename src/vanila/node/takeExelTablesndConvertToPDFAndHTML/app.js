@@ -11,7 +11,8 @@ async function Main() {
     const tables = new Table(dataTable);
     const html = await HTMLTable.ParserHTML(tables);
     const escritor = new Writer;
-    escritor.Write('HTMLDinamico.html', html)
+    escritor.Write('HTMLDinamico.html', html);
+
 };
 
 
